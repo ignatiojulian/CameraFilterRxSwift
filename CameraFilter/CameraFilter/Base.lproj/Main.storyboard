@@ -27,6 +27,9 @@
                                 <state key="normal" title="Apply Filter">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="applyFilterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ee-d7-wgW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,6 +52,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="filterButton" destination="oKF-9K-1rM" id="VrI-Fa-3dh"/>
                         <outlet property="photoImageView" destination="Q1g-ym-R6x" id="Cga-7A-gxV"/>
                     </connections>
                 </viewController>
